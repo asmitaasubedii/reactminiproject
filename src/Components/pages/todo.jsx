@@ -1,6 +1,6 @@
 import React, { useState } from "react";
-import { Input } from "./shared/input";
-import { Button } from "./shared/button";
+import { Input } from "../shared/input";
+import { Button } from "../shared/button";
 
 export const Todo = () => {
   const [input, setInput] = useState("");

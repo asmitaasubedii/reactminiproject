@@ -1,12 +1,13 @@
-import { Timer } from "./Components/timer";
-import { Todo } from "./Components/todo";
-import logo from "./logo.svg";
+import { TaskTracker } from "./Components/pages/taskTracker";
+import { Timer } from "./Components/pages/timer";
+import { Todo } from "./Components/pages/todo";
+
 import "./Styling/App.css";
 
 function App() {
   return (
     <div className="App">
-      <Todo />
+      <TaskTracker />
     </div>
   );
 }

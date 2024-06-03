@@ -1,7 +1,7 @@
 import React from "react";
 
 export const Input = (props) => {
-  const { type, placeholder, name, value, onChange, className } = props;
+  const { type, placeholder, name, value, onChange, className, id } = props;
 
   return (
     <>
@@ -9,9 +9,11 @@ export const Input = (props) => {
         type={type}
         placeholder={placeholder}
         name={name}
+        id={id}
         value={value}
         onChange={onChange}
         className={className}
+        required
       />
     </>
   );
